@@ -398,3 +398,32 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# 忽略的文件，不需要提交到版本控制
+
+# Mac配置
+.DS_Store
+
+# Windows配置
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+Thumbs.db
+*.lnk
+*.bat
+*.cmd
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# npm包
+/node_modules
+
+# 输出目录
+/000dist/
